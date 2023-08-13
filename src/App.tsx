@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Skills from './components/skills/skills.tsx'
 import Projects from './components/projects/projects.tsx'
 import ContactMe from './components/contact/contactMe.tsx'
+import Footer from './components/footer/footer.tsx'
 
 
 
@@ -20,6 +21,8 @@ function App() {
       <Skills />
       <Projects />
       <ContactMe />
+      <Footer />
+
 
     </div>
   )
