@@ -72,6 +72,7 @@ const projects = () => {
                     </Col>
                 </Row>
             </Container>
+            <img className='background-image-right' src={colorSharp2} alt="image right" />
         </section>
     )
 }
