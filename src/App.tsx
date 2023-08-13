@@ -5,6 +5,7 @@ import Banner from './components/hero/banner.tsx'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Skills from './components/skills/skills.tsx'
 import Projects from './components/projects/projects.tsx'
+import ContactMe from './components/contact/contactMe.tsx'
 
 
 
@@ -18,6 +19,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <ContactMe />
 
     </div>
   )
