@@ -49,7 +49,7 @@ const banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my portfolio</span>
                         <h1>{`Hi I'm Soroosh`}<br /><span className="wrap rotater"> {text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sapiente laudantium tenetur natus velit qui officia quidem, possimus eos, mollitia accusamus, provident vero assumenda aut consequuntur minima molestias esse et.</p>
+                        <p>M.Sc. in industrial engineering with a burning passion for IT and the web, allow me to share some of myself with you!</p>
                         <button onClick={() => console.log('connect')}>Let's Meet<ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
