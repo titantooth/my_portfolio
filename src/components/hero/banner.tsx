@@ -51,7 +51,7 @@ const banner = () => {
                         <p>M.Sc. in industrial engineering with a burning passion for IT and the web, allow me to share some of myself with you!</p>
                         <button onClick={() => console.log('connect')}>Let's Meet<ArrowRightCircle size={25} /></button>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="banner-img">
                         <img src={headerImg} alt="header img" />
                     </Col>
                 </Row>

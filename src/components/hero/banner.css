@@ -5,6 +5,7 @@
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 .banner .tagline {
   font-weight: 700;
@@ -98,4 +99,10 @@
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
   text-fill-color: transparent !important;
+}
+
+@media screen and (max-width: 550px) {
+  .banner img {
+    clip: auto;
+  }
 }
