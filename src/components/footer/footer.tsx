@@ -12,7 +12,8 @@ const footer = () => {
 
             <div className='footer-whole'>
                 <div>
-                    <img src={logo} alt="footer logo" />
+                    {/* <img src={logo} alt="footer logo" /> */}
+                    <h4 className='footer-left'>RABIEE</h4>
 
                 </div>
 

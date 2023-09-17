@@ -20,7 +20,7 @@
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
+  width: 76%;
 }
 .project .nav.nav-pills {
   width: 72%;
@@ -59,6 +59,7 @@
 }
 .project .nav.nav-pills .nav-link.active::before {
   width: 100% !important;
+  
 }
 .project .nav.nav-pills .nav-link.active {
   border: 1px solid rgba(255, 255, 255, 1);
@@ -81,7 +82,16 @@
   overflow: hidden;
   margin: 0 1rem;
   margin-bottom: 24px;
+  height: 300px;
+  
 }
+
+.proj-imgbx.img{
+  object-fit: none !important;
+
+}
+
+
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
@@ -120,6 +130,8 @@
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+
+
 .background-image-right {
   top: 20%;
   position: absolute;

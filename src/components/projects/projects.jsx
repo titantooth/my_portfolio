@@ -1,9 +1,14 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./projectCard.jsx";
-import projImg1 from "../../assets/img/project-img1.png";
+// import projImg1 from "../../assets/img/project-img1.png";
 import projImg2 from "../../assets/img/project-img2.png";
 import projImg3 from "../../assets/img/project-img3.png";
 import colorSharp2 from "../../assets/img/color-sharp2.png";
+import chitgar from '../../assets/img/chitgar.png'
+import feasibility from '../../assets/img/Feasibility.png'
+import webdev from '../../assets/img/webdev.png'
+import research from '../../assets/img/research.png'
+import katalom from '../../assets/img/katalom.png'
 import "./projects.css";
 // import 'animate.css';
 // import TrackVisibility from 'react-on-screen';
@@ -11,29 +16,29 @@ import "./projects.css";
 const projects = () => {
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Chitgar Floating Pontoons",
+      description: "Managed Project",
+      imgUrl: chitgar,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Feasibility Studies",
+      description: "Financial Advisor",
+      imgUrl: feasibility,
     },
     {
-      title: "Business Startup",
+      title: "Web Development",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: webdev,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "Research & Publications",
+      description: "Academic Research",
+      imgUrl: research,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title: "Katalom Hotel",
+      description: "Managed Project",
+      imgUrl: katalom,
     },
     {
       title: "Business Startup",
@@ -49,10 +54,7 @@ const projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, odio
-              sequi numquam autem iure libero facilis! Tempora natus explicabo,
-              quod dolores tenetur accusamus illum? Est laboriosam saepe
-              expedita unde delectus?
+            My experience encompasses a wide range of projects, including construction management, web development, and conducting financial feasibility studies. I've demonstrated adaptability by meeting timelines and budgets in construction, delivering user-friendly websites, and providing strategic insights for informed financial decisions.
             </p>
 
             <Row>

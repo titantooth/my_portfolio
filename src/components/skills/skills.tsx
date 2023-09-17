@@ -41,24 +41,36 @@ const skills = () => {
                                 Skills
                             </h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, excepturi culpa tempora maiores dignissimos, quaerat animi porro alias possimus, dolore iste repudiandae ratione! Enim laboriosam totam fuga quos placeat sit!
+                            project manager with financial and economic analysis skills, coupled with web development and design expertise. This versatile skill set positions me as an adept leader in diverse project environments.
                             </p>
                             <Carousel responsive={responsive} infinite={true} className='skills-slider' >
                                 <div className='item'>
                                     <img src={meter1} alt="image" />
-                                    <h5>Web Developnment</h5>
-                                </div>
-                                <div className='item'>
-                                    <img src={meter2} alt="image" />
-                                    <h5>Brand identity</h5>
-                                </div>
-                                <div className='item'>
-                                    <img src={meter3} alt="image" />
-                                    <h5>logo design</h5>
+                                    <h5>Financial Analysis</h5>
                                 </div>
                                 <div className='item'>
                                     <img src={meter1} alt="image" />
-                                    <h5>Web Design</h5>
+                                    <h5>Project Management</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter3} alt="image" />
+                                    <h5>Web Development</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter2} alt="image" />
+                                    <h5>Communication skills</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter1} alt="image" />
+                                    <h5>Problem-Solving</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter2} alt="image" />
+                                    <h5>Leadership</h5>
+                                </div>
+                                <div className='item'>
+                                    <img src={meter3} alt="image" />
+                                    <h5>Adaptability</h5>
                                 </div>
                             </Carousel>
 

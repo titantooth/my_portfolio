@@ -26,3 +26,8 @@
   position: relative;
   bottom: 0;
 }
+
+.footer-left {
+  font-size: 3rem;
+  font-weight: 800;
+}
